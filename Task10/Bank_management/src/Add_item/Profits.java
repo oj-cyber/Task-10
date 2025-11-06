@@ -2,23 +2,23 @@ package Add_item;
 
 public class Profits {
     private String source;
-    private double price;
+    private double Amount;
 
-    public Profits(String source, double price) {
+    public Profits(String source, double Amount) {
         this.source = source;
-        this.price = price;
+        this.Amount = Amount;
     }
 
     public void setSource(String source) {
         this.source = source;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
+    public void setPrice(double Amount) {
+        this.Amount = Amount;
     }
 
     public void ShowInfo(){
-        System.out.println("Name:"+" "+source);
-        System.out.println("Price:"+" "+price);
+        System.out.println("source:"+" "+source);
+        System.out.println("Amount:"+" "+Amount);
     }
 }
