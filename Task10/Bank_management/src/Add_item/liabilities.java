@@ -22,7 +22,7 @@ public class liabilities {
     public void ShowInfo(){
         System.out.println("particular:"+" "+particular);
 
-        System.out.println("Amount:"+" "+Amount);
+        System.out.println("Amount:"+" "+"UGX"+Amount);
     }
 
 }
