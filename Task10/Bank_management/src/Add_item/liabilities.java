@@ -1,28 +1,28 @@
 package Add_item;
 
 public class liabilities {
-    private String name;
-    private String id;
-    private double price;
+    private String particular;
 
-    public liabilities(String name, String id, double price) {
-        this.name = name;
-        this.id = id;
-        this.price = price;
+    private double Amount;
+
+    public liabilities(String particular, double Amount) {
+        this.particular = particular;
+
+        this.Amount = Amount;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String particular) {
+        this.particular = particular;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
+    public void setPrice(double Amount) {
+        this.Amount = Amount;
     }
 
     public void ShowInfo(){
-        System.out.println("Name:"+" "+name);
-        System.out.println("ID:"+" "+id);
-        System.out.println("Price:"+" "+price);
+        System.out.println("particular:"+" "+particular);
+
+        System.out.println("Amount:"+" "+Amount);
     }
 
 }
